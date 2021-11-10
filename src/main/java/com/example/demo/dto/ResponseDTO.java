@@ -2,7 +2,7 @@ package com.example.demo.dto;
 
 import java.util.List;
 
-import com.example.demo.model.TodoService;
+import com.example.demo.service.TodoService;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

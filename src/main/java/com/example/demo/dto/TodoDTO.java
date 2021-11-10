@@ -1,6 +1,6 @@
 package com.example.demo.dto;
 
-import com.example.demo.model.TodoService;
+import com.example.demo.model.TodoEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,7 +16,7 @@ public class TodoDTO {
 	private String title;
 	private boolean done;
 	
-	public TodoDTO(final TodoService entity) {
+	public TodoDTO(final TodoEntity entity) {
 		this.id = entity.getId();
 		this.title = entity.getTitle();
 		this.done = entity.isDone();

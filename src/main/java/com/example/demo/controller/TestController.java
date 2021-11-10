@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.dto.ResponseDTO;
 import com.example.demo.dto.TestRequestBodyDTO;
-import com.example.demo.model.TodoService;
+import com.example.demo.service.TodoService;
 
 @RestController
 @RequestMapping("test")
